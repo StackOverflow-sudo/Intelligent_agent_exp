@@ -1,0 +1,85 @@
+{
+    "company_names": {
+        "0": "My Shipping Corp Ltd."
+    },
+    "company_metrics": {
+        "0": {
+            "fuel_consumption": 4202.641194136758,
+            "co2_emissions": 13280.346173472153,
+            "fuel_cost": 4202.641194136758,
+            "vessel_status_ballast": 258.1614285714286,
+            "vessel_status_idle": 2231.331734927709,
+            "vessel_status_loading": 13.71234682185991,
+            "vessel_status_laden": 363.0821428571428,
+            "vessel_status_unloading": 13.712346821859683
+        }
+    },
+    "vessel_metrics": {
+        "(0, 0)": {
+            "route": [
+                "Aberdeen-f8ea5ddd09c3",
+                "Port Said-73e707725c62",
+                "Tanjung Pelepas-71ae886ba35d"
+            ],
+            "fuel_consumption": 4202.641194136758,
+            "co2_emissions": 13280.346173472153,
+            "fuel_cost": 4202.641194136758,
+            "vessel_status_ballast": 258.1614285714286,
+            "vessel_status_idle": 2231.331734927709,
+            "vessel_status_loading": 13.71234682185991,
+            "vessel_status_laden": 363.0821428571428,
+            "vessel_status_unloading": 13.712346821859683
+        }
+    },
+    "global_metrics": {
+        "auction_outcomes": [
+            {
+                "0": []
+            },
+            {
+                "0": []
+            },
+            {
+                "0": [
+                    {
+                        "payment": 2794.072917989715,
+                        "trade": {
+                            "origin_port": {
+                                "name": "Port Said-73e707725c62",
+                                "latitude": 31.25094,
+                                "longitude": 32.30507
+                            },
+                            "destination_port": {
+                                "name": "Tanjung Pelepas-71ae886ba35d",
+                                "latitude": 1.34033,
+                                "longitude": 103.54542
+                            },
+                            "amount": 68561.73410929955,
+                            "cargo_type": "Oil",
+                            "time": 1440,
+                            "probability": 1,
+                            "status": 1,
+                            "time_window": [
+                                1776,
+                                2016,
+                                2208,
+                                2448
+                            ]
+                        },
+                        "fulfilled": true
+                    }
+                ]
+            },
+            {
+                "0": []
+            },
+            {
+                "0": []
+            }
+        ],
+        "penalty": {
+            "0": 0
+        }
+    },
+    "info": null
+}

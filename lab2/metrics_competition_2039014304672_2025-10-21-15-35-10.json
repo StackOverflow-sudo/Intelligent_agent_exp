@@ -1,0 +1,115 @@
+{
+    "company_names": {
+        "0": "My Shipping Corp Ltd."
+    },
+    "company_metrics": {
+        "0": {
+            "fuel_consumption": 7906.117473335558,
+            "co2_emissions": 24983.331215740374,
+            "fuel_cost": 7906.117473335558,
+            "vessel_status_ballast": 1117.5642857142857,
+            "vessel_status_idle": 3203.137293149326,
+            "vessel_status_loading": 38.72396308772983,
+            "vessel_status_laden": 467.1421428571429,
+            "vessel_status_unloading": 38.723963087729885
+        }
+    },
+    "vessel_metrics": {
+        "(0, 0)": {
+            "route": [
+                "Aberdeen-f8ea5ddd09c3",
+                "Nakhodka-eaf8326ce14b",
+                "Long Beach-4c3082f54073",
+                "Novorossiysk CPC-3b26a9570fd1",
+                "Trieste-2aed856f346e"
+            ],
+            "fuel_consumption": 7906.117473335558,
+            "co2_emissions": 24983.331215740374,
+            "fuel_cost": 7906.117473335558,
+            "vessel_status_ballast": 1117.5642857142857,
+            "vessel_status_idle": 3203.137293149326,
+            "vessel_status_loading": 38.72396308772983,
+            "vessel_status_laden": 467.1421428571429,
+            "vessel_status_unloading": 38.723963087729885
+        }
+    },
+    "global_metrics": {
+        "auction_outcomes": [
+            {
+                "0": [
+                    {
+                        "payment": 2779.7209489825264,
+                        "trade": {
+                            "origin_port": {
+                                "name": "Nakhodka-eaf8326ce14b",
+                                "latitude": 42.78621,
+                                "longitude": 132.92236
+                            },
+                            "destination_port": {
+                                "name": "Long Beach-4c3082f54073",
+                                "latitude": 33.75264,
+                                "longitude": -118.21166
+                            },
+                            "amount": 107161.57595757782,
+                            "cargo_type": "Oil",
+                            "time": 0,
+                            "probability": 1,
+                            "status": 1,
+                            "time_window": [
+                                456,
+                                696,
+                                864,
+                                1104
+                            ]
+                        },
+                        "fulfilled": true
+                    }
+                ]
+            },
+            {
+                "0": []
+            },
+            {
+                "0": []
+            },
+            {
+                "0": []
+            },
+            {
+                "0": [
+                    {
+                        "payment": 946.8106947953028,
+                        "trade": {
+                            "origin_port": {
+                                "name": "Novorossiysk CPC-3b26a9570fd1",
+                                "latitude": 44.6354,
+                                "longitude": 37.64608
+                            },
+                            "destination_port": {
+                                "name": "Trieste-2aed856f346e",
+                                "latitude": 45.627,
+                                "longitude": 13.76048
+                            },
+                            "amount": 86458.23948107271,
+                            "cargo_type": "Oil",
+                            "time": 3840,
+                            "probability": 1,
+                            "status": 1,
+                            "time_window": [
+                                4464,
+                                4704,
+                                4848,
+                                5088
+                            ]
+                        },
+                        "fulfilled": true
+                    }
+                ]
+            }
+        ],
+        "penalty": {
+            "0": 0
+        }
+    },
+    "info": null
+}
